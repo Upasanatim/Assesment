@@ -1,0 +1,42 @@
+body{margin:0;}knheader{}
+header{}
+header div:first-child{padding:4%;background:white;width:90%;float:left;
+}
+.clear{clear:both;}
+
+.logo{border: solid black 2px;
+ }
+nav{background:royal blue;}
+nav ul{margin :5px;padding:0;}
+nav ul li{
+    list-style:none;float:left;margin:0.5%;padding:1%;background:#989595;
+}
+nav ul li a{text-decoration :none:display;block;width:100%}
+nav ul li :hover {background:voilet; transition: .5s;}
+.container{
+	background-color:pink;
+	height:500px;
+	width:700px;
+	display:grid;
+	grid-template-columnn: 133px 133px; 
+	grid-template-row:133px 133px;
+	row-gap: 10px;
+	column-gap:10px;
+	float:middle;
+}
+.item{
+	padding:2%;
+background-color:yellow;
+height:150px;
+width:150px;
+}
+
+
+	
+
+
+	
+  
+	  
+	 
+	  
