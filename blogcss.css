@@ -1,31 +1,36 @@
-
-body{margin:0;}knheader{}
+ody{margin:0;}
 header{}
-header div:first-child{padding:4%;background:white;width:90%;float:left;
-}
+header div:first-child{padding:4%;background blue;width:35%;float:left; width: 15%;}
 .clear{clear:both;}
 
-.logo{border: solid black 2px;
- }
-nav{background:royal blue;}
+.logo{border: solid black 2px; }
+
+nav{background:bisque;}
 nav ul{margin :5px;padding:0;}
 nav ul li{
     list-style:none;float:left;margin:0.5%;padding:1%;background:#989595;
 }
 nav ul li a{text-decoration :none:display;block;width:100%}
-nav ul li :hover {background:voilet; transition: .5s;}
+nav ul li :hover {background:lightgreen; transition: .5s;}
 #container{
-display:flex; flex-direction:row; width:100%; height:300px; background:yellow;}
+display:flex; flex-direction:row; width:100%; height:300px; background:beige;}
 
 .left{
-	border:solid;
-	width:50%
+	border:dashed;
+	width:40%;
+	margin:29px;
+	background:lavenderblush;
+	height:250px;
+	
 }
 .right{
-	border:solid;
-width:50%
+	border:dashed;
+width:40%;
+margin:29px;
+background:lavenderblush;
+height:250px;
 }
 
 #content{
- margin: 0px; height:300px;background:pink; width:100%;display:flex;
-}
+ margin: 20px; height:400px;background:blanchedalmond;; width:90%;display:flex; border:dotted;
+

@@ -1,11 +1,11 @@
 body{margin:0;}
 header{}
-header div:first-child{padding:4%;background blue;width:35%;float:left; width: 15%;}
+header div:first-child{padding:4%;background:white;width:35%;float:left; width: 15%;}
 .clear{clear:both;}
 
 .logo{border: solid black 2px; }
 
-nav{background:maroon;}
+nav{background:antiquewhite;}
 nav ul{margin :5px;padding:0;}
 nav ul li{
     list-style:none;float:left;margin:0.5%;padding:1%;background:#989595;
@@ -14,8 +14,8 @@ nav ul li a{text-decoration :none:display;block;width:100%}
 nav ul li :hover {background:lightgreen; transition: .5s;}
 
 .container{
-	background-color:pink;
-	height:500px;
+	background-color:wheat;
+	height:600px;
 	width:100%;
 	display:grid;
 	column-gap:10px;
