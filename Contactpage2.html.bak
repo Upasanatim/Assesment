@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Assignment</title>
-<link rel="stylesheet" type="text/css" href="homepagecss.css">
+<link rel="stylesheet" type="text/css" href="contactpage1.css">
+<html lang="en">
 
    
   </head>
@@ -25,7 +26,7 @@
      <li><a href="homepage.html">Home </a></li>
      <li><a href="portfolio.html">Portfolio</a></li>
      <li><a href="blog.html">Blog</a></li>
-     <li><a href="contactpage2.html">Contact</a></li>
+     <li><a href="Contactpage2.htm">Contact</a></li>
      <li><a href="Report.html">Report</a></li>
         </ul>
       </nav>
@@ -46,11 +47,45 @@
 
     <script src="script.js">
 </script>
-     <section id="container">
-<div class="text">
-    <h1>Hie,My name is Upasana Timilsina.</h1>
-    <P>Hope you are doing good!</P>
-   </div>
-</section>
-  </body>
+
+   <div class= "container-contact">
+    <h1>Contact </h1><br>
+ <h3>Send your request:</h3><br>
+
+
+ <form>
+<div class="input-row">
+<div class="input-group">
+<label> First Name</label>
+<input type="text" placeholder="firstname-here">
+<br> </br>
+</div> 
+<div class="input-row">
+<div class="input-group">
+<label> Last Name</label>
+<input type="text" placeholder="lastname-here">
+<br> </br>
+</div> 
+<div class="input-row">
+<div class="input-group">
+<label>Phone number</label>
+<input type="text" placeholder="123456">
+<br> </br>
+</div>
+<div class="input-row">
+<div class="input group">
+<label>Email</label>
+<input type="email" placeholder="email-here">
+<br> </br>
+</div>
+<input type="radio" name="gender" value="male" checked> Male<br>
+<input type="radio" name="gender" value="female" checked> Female<br>
+<input type="radio" name="gender" value="other" checked> other
+<br> </br>
+<input type="submit" value="submit"><br>
+</form>
+</div>
+</div>
+</form>
+</body>
 </html>

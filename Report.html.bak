@@ -1,25 +1,81 @@
+
+<!DOCTYPE html>
 <html>
-<head>
+    <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Report</title>
-</head>
-<link rel="stylesheet" href="Report.css">
-<body>
-  <header>
-     <div class="logo">
-        <img src="placehorderimg" alt="placeholder image">
+<title>Assignment</title>
+<link rel="stylesheet" type="text/css" href="Report.css">
+<html lang="en">
+
+   
+  </head>
+  <body>
+    
+    <div class="logo">
+        <img src="placehorderimg" alt="placeholder image">    
 </div>
-<div class="clear"></div>
-  </header>
-<nav>
-<ul>
- <li><a href="homepage.html">Home </a></li>
- <li><a href="portfolio.html">Portfolio</a></li>
- <li><a href="blog.html">Blog</a></li>
-          <li><a href="contactpage.html">Contact</a></li>
-          <li><a href="report.html">Report</a></li>
- <div class="clear"></div>
-</ul>  
-  </nav><center>
-  <h1>Report</h1></center>
+    
+   
+
+    <header>
+    
+      <nav>
+        <ul>
+         
+       <ul>
+     <li><a href="homepage.html">Home </a></li>
+     <li><a href="portfolio.html">Portfolio</a></li>
+     <li><a href="blog.html">Blog</a></li>
+     <li><a href="contactpage.html">Contact</a></li>
+     <li><a href="Report.html">Report</a></li>
+        </ul>
+      </nav>
+
+      <div id="hamburger-icon" onclick="toggleMobileMenu(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <ul class="mobile-menu">
+           <li><a href="homepage.html">Home </a></li>
+           <li><a href="portfolio.html">Portfolio</a></li>
+           <li><a href="blog.html">Blog</a></li>
+           <li><a href="contactpage.html">Contact</a></li>
+           <li><a href="Report.html">Report</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <script src="script.js">
+</script>
+  <h1>Report</h1>
+    <section id="container-report">
+<div class="report">
+    <h2> As part of my web development module, I was assigned the task of creating my own webpage.<br> This being my first semester, the assignment seemed very daunting at first but<br>I gave my best to come up with the final product, which I personally feel is pretty good.<br>
+
+As you open the webpage, you can see the home page that contains home,<br> portfolio, blog, contact, and report tabs with my introduction on a linear-gradient background. <br>As for my portfolio, I have used grid-layout. <br>Talking about my blog, it has two sections, the first section has <br>two divisions for text. 
+I opted to use pink, purple, violet, and aqua as background colors<br> as these enhanced my pages and created a good contrast against the font colors.<br>
+ I did struggle a little while creating the portfolio and the contact page, the assistance, and guidance from my tutors and classmates helped me get through the task.
+ Moving to the experience, I was a lit bit nervous because it was the first time I was using<br> HTML, coding, designs, and debugging.
+ Everything was new for me.<br> I understood some basics of web developments through daily classes.
+ I had missed <br>some classes and it was really hard for me to catch up. 
+ <br>I was having some issues so I started learning via youtube, doing this daily<br> helped me gain the confidence to do the task at hand. 
+ I had some confusion regarding pages<br> for which I sought help from my tutors. Also, they helped me with coding, GitHub, and CSS.<br>
+ I have used java-script fot hamburger-icon.((Adam navy, 2021)<br>
+<br>Overall it was a great learning experience.
+ I learned a lot and<br> had a lot of fun too along the way. I really appreciate all the support<br> I received from my tutors, instructors. 
+ During the course<br> of this assignment, I have definitely gained confidence along with knowledge<br> regarding web development and hope to accomplish more tasks like <br>this in the future.
+ </h2>
+   </div>
+   </section>
+ <div>
+ References:
+ Adam navy, 2021. [Online] 
+Available at: https://dev.to/javascriptacademy/responsive-navigation-bar-with-mobile-menu-using-html-css-2hpd
+</div>
+<div>
+<img src="C:\Users\DELL\Downloads\274973808_377040247261860_4729962712177923799_n.png">
+<img src ="C:\Users\DELL\Downloads\274963367_4955484111171264_5331218571552653237_n.png">
+</div>
+  </body>
+</html>

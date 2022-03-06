@@ -1,12 +1,12 @@
-
-
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
 
-body{}
+body{
+  height: 300vh;
+}
 
 .logo{
     border: solid black 2px; 
@@ -101,19 +101,14 @@ ul li:hover {
   margin-bottom: 11px;
 }
 
-
-
-.container-contact{
-	background-color:thistle;
-	height:339px;
-	width:60%;
-	margin:15px;
+#container-report{
+display:flex; flex-direction:row; width:100%; height:140vh; 
+background :linear-gradient(blueviolet,whitesmoke);
 }
-.info{
-	text-align: center;
-	font-size: 18px;
-	margin-top: 25px;
+.report{
+ margin: 155px; padding: 20px;
 }
+
 
 @media only screen and (max-width: 600px) {
   header nav {
@@ -124,8 +119,9 @@ ul li:hover {
     display: block;
   }
   
+  .report{
+ margin: 1px; padding: 1px; font-size: 14px;
+}
 
-/*The code for contact-page was taken via youtube 
-channel name:Easy tutorials.
-https://youtu.be/orBQesFBkXg  */
- 
+/*hamburger-menu starts((the code for hamburger menu was taken from Adam Nagy,
+https://dev.to/javascriptacademy/responsive-navigation-bar-with-mobile-menu-using-html-css-2hpd))*/
